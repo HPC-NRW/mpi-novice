@@ -18,29 +18,29 @@ carpentry: 'incubator'
 carpentry_description: 'Lesson Description'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Introduction to Message Passing with MPI'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2026-03-04
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'HPC, high-performance, distributed memory, message passing, MPI, programming'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/hpc-nrw/mpi-novice'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'tutorials@hpc.nrw'
 
 # Navigation ------------------------------------------------
 #
@@ -66,7 +66,12 @@ contact: 'team@carpentries.org' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 01-introduction.md
+- 02-basic_concepts.md
+- 03-blocking-point-to-point.md
+- 04-nonblocking-point-to-point.md
+- 05-derived-datatypes.md
+- 06-blocking-collectives.md
 
 # Information for Learners
 learners: 
